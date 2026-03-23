@@ -69,6 +69,3 @@ class DeliveryDrone(FlyingRobot):
 
     def unhook_load(self) -> None:
         self.current_load = None
-
-huehvat = DeliveryDrone("Bodya", 666, 69, Cargo(67))
-print(huehvat.current_load.weight)
